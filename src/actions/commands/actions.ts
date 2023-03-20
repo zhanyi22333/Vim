@@ -463,6 +463,7 @@ class CommandEsc extends BaseCommand {
 
 @RegisterAction
 export class CommandInsertAtCursor extends BaseCommand {
+  //实现了i的操作
   modes = [Mode.Normal];
   keys = [['i'], ['<Insert>']];
 
